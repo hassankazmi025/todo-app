@@ -1,0 +1,94 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.heading {
+  font-size: 26px;
+}
+.todo-div {
+  margin-top: 20px;
+  display: flex;
+  width: 50%;
+}
+.input-div {
+  width: 90%;
+  border: 2px solid #b3b0ea;
+  border-radius: 5px;
+}
+#add-todo {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+}
+.selec-btn {
+  width: 60px;
+  background-color: #6c63ff;
+  margin-right: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 16px;
+}
+.theme-changer {
+  width: 60px;
+  background-color: #6c63ff;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.list-div {
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 115px;
+}
+.todo-list {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+}
+.todo-list li {
+  margin-top: 3px;
+}
+.checkBox {
+  width: 26px;
+  height: 26px;
+  margin-right: 17px;
+  border-radius: 2px;
+  background-color: #fff;
+
+  border: 1px solid #b3b0ea;
+}
+.hr-line {
+  border: 1px solid #b3b0ea;
+  width: 450px;
+  margin-top: 17px;
+}
+
+.todo-list2 {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  margin-top: 30px;
+}
+.todo-list2 li {
+  color: #383838;
+  opacity: 50%;
+  text-decoration: line-through;
+}
